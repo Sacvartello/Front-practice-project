@@ -8,6 +8,7 @@ import Footer from '../../components/Footer/Footer';
 import styles from './Home.module.sass';
 import carouselConstants from '../../carouselConstants';
 import Spinner from '../../components/Spinner/Spinner';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Home = (props) => {
   const [index, setIndex] = useState(0);
@@ -46,6 +47,12 @@ const Home = (props) => {
               </p>
               <div className={styles.button}>
                 <Link className={styles.button__link} to="/dashboard">DASHBOARD</Link>
+              </div>
+              <div className={styles.banner}>
+                <p className={styles.bannerText}>
+                  Ready to get started? Launch a contest and start receiving submissions instantly.
+                </p>
+                <button className={styles.bannerButton}><FontAwesomeIcon icon="fa-regular fa-lightbulb" /> Start A Contest</button>
               </div>
             </div>
             <div className={styles.greyContainer}>
@@ -213,6 +220,27 @@ const Home = (props) => {
                 carouselType={carouselConstants.FEEDBACK_SLIDER}
               />
             </div>
+          <div className={styles.info}>
+            <div className={styles.leftSection}>
+              <div>
+                <h3><span className={styles.bullet}>{'>'}</span>Pay a Fraction of cost vs hiring an agency</h3>
+                <p>For as low as $299, our naming contests and marketplace allow you to get an amazing brand quickly and affordably.</p>
+              </div>
+              <div>
+                <h3><span className={styles.bullet}>{'>'}</span>Satisfaction Guarantee</h3>
+                <p>Of course! We have policies in place to ensure that you are satisfied with your experience.</p>
+              </div>
+          </div>
+          <div className={styles.rightSection}>
+            <h3>Questions?</h3>
+            <p>Speak with a Squadhelp platform expert to learn more and get your questions answered.</p>
+            <button className={styles.scheduleButton}>Schedule Consultation</button>
+            <div className={styles.contactInfo}>
+              <span>📞</span> (877) 355-3585
+            </div>
+            <p>Call us for assistance</p>
+          </div>
+        </div>
           </div>
           <Footer />
         </>
