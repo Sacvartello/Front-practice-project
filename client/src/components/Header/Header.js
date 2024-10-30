@@ -45,14 +45,14 @@ class Header extends React.Component {
                 <li><Link to="/account" style={{ textDecoration: 'none' }}><span>My Account</span></Link></li>
                 <li>
                   <Link
-                    to="http:/www.google.com"
+                    to="#"
                     style={{ textDecoration: 'none' }}
                   >
                     <span>Messages</span>
                   </Link>
                 </li>
                 <li>
-                  <Link to="http:/www.google.com" style={{ textDecoration: 'none' }}><span>Affiliate Dashboard</span></Link>
+                  <Link to="#" style={{ textDecoration: 'none' }}><span>Affiliate Dashboard</span></Link>
                 </li>
                 <li><span onClick={this.logOut}>Logout</span></li>
               </ul>
@@ -83,7 +83,7 @@ class Header extends React.Component {
         <div className={styles.headerContainer}>
           <div className={styles.fixedHeader}>
             <span className={styles.info}>Squadhelp recognized as one of the Most Innovative Companies by Inc Magazine.</span>
-            <a href="http://www.google.com">Read Announcement</a>
+            <a href="#">Read Announcement</a>
           </div>
           <div className={styles.loginSignnUpHeaders}>
             <div className={styles.numberContainer}>
@@ -106,15 +106,15 @@ class Header extends React.Component {
                       alt="menu"
                     />
                     <ul>
-                      <li><a href="http://www.google.com">Beauty</a></li>
-                      <li><a href="http://www.google.com">Consulting</a></li>
-                      <li><a href="http://www.google.com">E-Commerce</a></li>
-                      <li><a href="http://www.google.com">Fashion & Clothing</a></li>
-                      <li><a href="http://www.google.com">Finance</a></li>
-                      <li><a href="http://www.google.com">Real Estate</a></li>
-                      <li><a href="http://www.google.com">Tech</a></li>
+                      <li><a href="http://localhost:3000/#">Beauty</a></li>
+                      <li><a href="http://localhost:3000/#">Consulting</a></li>
+                      <li><a href="http://localhost:3000/#">E-Commerce</a></li>
+                      <li><a href="http://localhost:3000/#">Fashion & Clothing</a></li>
+                      <li><a href="http://localhost:3000/#">Finance</a></li>
+                      <li><a href="http://localhost:3000/#">Real Estate</a></li>
+                      <li><a href="http://localhost:3000/#">Tech</a></li>
                       <li className={styles.last}>
-                        <a href="http://www.google.com">More Categories</a>
+                        <a href="http://localhost:3000/#">More Categories</a>
                       </li>
                     </ul>
                   </li>
@@ -125,14 +125,14 @@ class Header extends React.Component {
                       alt="menu"
                     />
                     <ul>
-                      <li><a href="http://www.google.com">HOW IT WORKS</a></li>
-                      <li><a href="http://www.google.com">PRICING</a></li>
-                      <li><a href="http://www.google.com">AGENCY SERVICE</a></li>
-                      <li><a href="http://www.google.com">ACTIVE CONTESTS</a></li>
-                      <li><a href="http://www.google.com">WINNERS</a></li>
-                      <li><a href="http://www.google.com">LEADERBOARD</a></li>
+                      <li><a href="http://localhost:3000/#">HOW IT WORKS</a></li>
+                      <li><a href="http://localhost:3000/#">PRICING</a></li>
+                      <li><a href="http://localhost:3000/#">AGENCY SERVICE</a></li>
+                      <li><a href="http://localhost:3000/#">ACTIVE CONTESTS</a></li>
+                      <li><a href="http://localhost:3000/#">WINNERS</a></li>
+                      <li><a href="http://localhost:3000/#">LEADERBOARD</a></li>
                       <li className={styles.last}>
-                        <a href="http://www.google.com">
+                        <a href="http://localhost:3000/#">
                             BECOME A
                             CREATIVE
 </a>
@@ -146,11 +146,11 @@ class Header extends React.Component {
                       alt="menu"
                     />
                     <ul>
-                      <li><a href="http://www.google.com">NAMES</a></li>
-                      <li><a href="http://www.google.com">TAGLINES</a></li>
-                      <li><a href="http://www.google.com">LOGOS</a></li>
+                      <li><a href="http://localhost:3000/#">NAMES</a></li>
+                      <li><a href="http://localhost:3000/#">TAGLINES</a></li>
+                      <li><a href="http://localhost:3000/#">LOGOS</a></li>
                       <li className={styles.last}>
-                        <a href="http://www.google.com">TESTIMONIALS</a>
+                        <a href="http://localhost:3000/#">TESTIMONIALS</a>
                       </li>
                     </ul>
                   </li>
@@ -158,13 +158,13 @@ class Header extends React.Component {
                     <span>Names For Sale</span>
                     <img src={`${CONSTANTS.STATIC_IMAGES_PATH}menu-down.png`} alt="menu" />
                     <ul>
-                      <li><a href="http://www.google.com">POPULAR NAMES</a></li>
-                      <li><a href="http://www.google.com">SHORT NAMES</a></li>
-                      <li><a href="http://www.google.com">INTRIGUING NAMES</a></li>
-                      <li><a href="http://www.google.com">NAMES BY CATEGORY</a></li>
-                      <li><a href="http://www.google.com">VISUAL NAME SEARCH</a></li>
+                      <li><a href="http://localhost:3000/#">POPULAR NAMES</a></li>
+                      <li><a href="http://localhost:3000/#">SHORT NAMES</a></li>
+                      <li><a href="http://localhost:3000/#">INTRIGUING NAMES</a></li>
+                      <li><a href="http://localhost:3000/#">NAMES BY CATEGORY</a></li>
+                      <li><a href="http://localhost:3000/#">VISUAL NAME SEARCH</a></li>
                       <li className={styles.last}>
-                        <a href="http://www.google.com">
+                        <a href="http://localhost:3000/#">
                             SELL YOUR
                             DOMAINS
 </a>
@@ -178,11 +178,11 @@ class Header extends React.Component {
                       alt="menu"
                     />
                     <ul>
-                      <li><a href="http://www.google.com">ULTIMATE NAMING GUIDE</a></li>
-                      <li><a href="http://www.google.com">POETIC DEVICES IN BUSINESS NAMING</a></li>
-                      <li><a href="http://www.google.com">CROWDED BAR THEORY</a></li>
+                      <li><a href="http://localhost:3000/#">ULTIMATE NAMING GUIDE</a></li>
+                      <li><a href="http://localhost:3000/#">POETIC DEVICES IN BUSINESS NAMING</a></li>
+                      <li><a href="http://localhost:3000/#">CROWDED BAR THEORY</a></li>
                       <li className={styles.last}>
-                        <a href="http://www.google.com">ALL ARTICLES</a>
+                        <a href="http://localhost:3000/#">ALL ARTICLES</a>
                       </li>
                     </ul>
                   </li>
