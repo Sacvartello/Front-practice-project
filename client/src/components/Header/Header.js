@@ -126,7 +126,7 @@ class Header extends React.Component {
                     />
                     <ul>
                       <li><a href="http://localhost:3000/#">HOW IT WORKS</a></li>
-                      <li><a href="http://localhost:3000/#">PRICING</a></li>
+                      <li><a href="http://localhost:3000/pricing">PRICING</a></li>
                       <li><a href="http://localhost:3000/#">AGENCY SERVICE</a></li>
                       <li><a href="http://localhost:3000/#">ACTIVE CONTESTS</a></li>
                       <li><a href="http://localhost:3000/#">WINNERS</a></li>

@@ -1,0 +1,47 @@
+.cardsWrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+.card{
+    width:180px;
+    height:170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.card:hover{
+    box-shadow:0 5px 10px 5px #666666 
+}
+.planName{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.aboutPlan{
+    color: #999;
+    font-size: 16px;
+}
+.price{
+    align-self: self-end;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+
+
+
+
+.childrens{
+    width:235px;
+}
+.startBtn{
+    font-weight: bolder;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
